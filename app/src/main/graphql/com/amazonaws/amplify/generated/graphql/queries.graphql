@@ -1,0 +1,46 @@
+# this is an auto generated file. This will be overwritten
+query GetPost($id: String!, $uptime: String!) {
+  getPost(id: $id, uptime: $uptime) {
+    id
+    author
+    title
+    content
+    url
+    uptime
+    photo {
+      ...S3Object
+    }
+    version
+  }
+}
+query ListPosts(
+  $id: String
+  $uptime: ModelStringKeyConditionInput
+  $filter: ModelPostFilterInput
+  $limit: Int
+  $nextToken: String
+  $sortDirection: ModelSortDirection
+) {
+  listPosts(
+    id: $id
+    uptime: $uptime
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    sortDirection: $sortDirection
+  ) {
+    items {
+      id
+      author
+      title
+      content
+      url
+      uptime
+      photo {
+        ...S3Object
+      }
+      version
+    }
+    nextToken
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-aws-android-workshop-dev-102002-authRole",
+            "UnauthRoleArn": "arn:aws:iam::928921437847:role/amplify-aws-android-workshop-dev-102002-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::928921437847:role/amplify-aws-android-workshop-dev-102002-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-aws-android-workshop-dev-102002-deployment",
+            "UnauthRoleName": "amplify-aws-android-workshop-dev-102002-unauthRole",
+            "StackName": "amplify-aws-android-workshop-dev-102002",
+            "StackId": "arn:aws:cloudformation:us-east-1:928921437847:stack/amplify-aws-android-workshop-dev-102002/8dd45e20-3620-11ea-aac8-12da3ecd6186",
+            "AmplifyAppId": "dxdo4qx700ebi"
+        },
+        "categories": {
+            "auth": {
+                "awsandroidworkshop04d5ed23": {}
+            }
+        }
+    }
+}

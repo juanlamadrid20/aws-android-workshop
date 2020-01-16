@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "awsandroidworkshop",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authawsandroidworkshop04d5ed23",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
